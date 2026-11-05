@@ -1,0 +1,138 @@
+/*Stylization for The main body*/
+body {
+    margin: 0;
+    background-color: #a5bd42;
+    color: #bd42a5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*States that stylization applies to the following headers listed*/
+h1,
+h2,
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+}
+
+/*Stylizing Header 1*/
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/*Stylizing Header 2*/
+h2 {
+    font-size: 1.8rem;
+    color: #bd42a5;
+    border-bottom: 2px solid #bd42a5;
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+/* Making a margin on the space between each paragraph so they don't touch. */
+p {
+    margin: 0 0 14px;
+}
+
+/*Putting a size-up in the text and stylizing it to italic for the intro */
+.intro {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* Adding a bold and color to the text*/
+strong {
+    font-weight: bold;
+    color: #bd42a5;
+}
+
+/*No underline under the highlighted text*/
+a:hover {
+    text-decoration: none;
+}
+
+/* Putting a stripe across the top for the site header*/
+.site-header {
+    background-color: #42a5bd;
+    color: #a5bd42;
+    text-align: center;
+    padding: 40em 20px;
+}
+
+/* Adding a bit of shadow and transparency for the site-header*/
+.site-header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+/*Gap and letter spacing for text*/
+.tagline {
+    margin: 8px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.95rem;
+}
+
+/*Container for the webpage*/
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+/*Adding a card to the page for quick facts*/
+.card {
+    background-color: #a5bd42;
+    border: 1px solid #42a5bd;
+    border-left: 6px solid #bd42a5;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 32px 0;
+    max-width: 420px;
+    box-shadow: 0 4px 12px rgba(43, 43, 43, 0.12);
+}
+
+/*A heading inside the card*/
+.card h3 {
+    margin: 0 0 12px;
+    font-size: 1.5em;
+    color: #bd42a5;
+}
+
+/*interactive button and stylization for it.*/
+.button {
+    display: inline-block;
+    background-color: #42a5bd;
+    color: #bd42a5;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+/*Background color for button*/
+.button:hover {
+    background-color: #a5bd42;
+}
+
+/*square bullets pushed to the left*/
+ul {
+    list-style-type: square;
+    padding-left: 24px;
+}
+
+/*Space between the two elements*/
+li {
+    margin-bottom: 6px;
+}
+
+/*stylization for footer*/
+.site-footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #bd42a5;
+    border-top: 1px solid #42a5bd;
+    padding: 20px;
+}
